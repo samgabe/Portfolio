@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "development"
+  ],
+  "plugins": [
+    "custom-plugin-name"
+  ],
+  "rules": {
+    "custom-plugin-name/rule-name": "error"
+  },
+  "hints": {
+    "disown-opener": "off",
+    "axe/forms": "off"
+  }
+}
