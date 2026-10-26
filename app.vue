@@ -18,7 +18,11 @@
 useHead({
   titleTemplate: '%s - Sam Dev Builds',
   meta: [
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'theme-color', content: '#0f172a' }
+  ],
+  link: [
+    { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
   ],
   htmlAttrs: {
     lang: 'en'

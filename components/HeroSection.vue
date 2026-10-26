@@ -21,19 +21,17 @@
             </div>
             
             <h1 class="heading-xl">
-              Hi, I'm <span class="gradient-text">Sam Dev Builds</span>
+              I build digital products that <span class="gradient-text">move businesses forward</span>
             </h1>
             
             <h2 class="heading-lg text-gray-600 dark:text-dark-600">
-              Full-Stack Developer & Cybersecurity Consultant
+              Full-Stack Developer • Product Builder • Cybersecurity Consultant
             </h2>
           </div>
 
           <div class="space-y-6 animate-slide-in-left" style="animation-delay: 0.2s;">
             <p class="text-body max-w-2xl">
-              A tech enthusiast passionate about building innovative, scalable solutions that solve real-world problems. 
-              Based in Kenya, I specialize in modern web technologies and have extensive experience delivering 
-              production-ready applications for clients across various industries.
+              I help founders, organizations, and teams turn ideas into reliable web, mobile, and backend systems that are fast, secure, and ready for real-world use. Based in Kenya, I design and ship practical software for agriculture, fintech, HR, community platforms, and digital transformation.
             </p>
 
             <div class="flex flex-wrap gap-4">
@@ -121,7 +119,7 @@ const socialLinks = [
   {
     name: 'Portfolio',
     icon: 'i-heroicons-globe-alt',
-    url: 'https://samkkamauportfolio.netlify.app'
+    url: 'https://sambuilds.co.ke'
   },
   {
     name: 'LinkedIn',

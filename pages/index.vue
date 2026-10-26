@@ -29,13 +29,13 @@ definePageMeta({
 
 // SEO
 useSeoMeta({
-  title: 'Sam Dev Builds - Full-Stack Developer & Cybersecurity Consultant',
-  description: 'Exceptional full-stack developer specializing in Vue.js, Flutter, Go, and modern web technologies. Building innovative solutions for clients across Agriculture, FinTech, HR, and more.',
-  ogTitle: 'Sam Dev Builds - Full-Stack Developer',
-  ogDescription: 'Building innovative solutions with modern technologies',
-  ogImage: '/og-image.jpg',
+  title: 'Sam Dev Builds - Full-Stack Developer & Product Builder',
+  description: 'Full-stack developer and cybersecurity consultant building scalable web, mobile, and business systems for agriculture, fintech, community, and digital transformation projects.',
+  ogTitle: 'Sam Dev Builds - Full-Stack Developer & Product Builder',
+  ogDescription: 'I build digital products that help businesses solve real problems with practical technology.',
+  ogImage: '/og-image.svg',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Sam Dev Builds - Full-Stack Developer',
-  twitterDescription: 'Building innovative solutions with modern technologies'
+  twitterTitle: 'Sam Dev Builds - Full-Stack Developer & Product Builder',
+  twitterDescription: 'I build digital products that help businesses solve real problems with practical technology.'
 })
 </script>

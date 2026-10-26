@@ -31,7 +31,14 @@
               </div>
               <div>
                 <h4 class="font-semibold">{{ contact.label }}</h4>
-                <p class="text-caption">{{ contact.value }}</p>
+                <a
+                  v-if="contact.label === 'Email'"
+                  :href="`mailto:${contact.value}`"
+                  class="text-caption text-primary-500 hover:text-primary-600 transition-colors"
+                >
+                  {{ contact.value }}
+                </a>
+                <p v-else class="text-caption">{{ contact.value }}</p>
               </div>
             </div>
           </div>
@@ -171,7 +178,7 @@ const showSuccess = ref(false)
 const contactInfo = [
   {
     label: 'Email',
-    value: 'Available upon request',
+    value: 'sam@sambuilds.co.ke',
     icon: 'i-heroicons-envelope'
   },
   {
@@ -196,7 +203,7 @@ const socialLinks = [
   {
     name: 'Portfolio',
     icon: 'i-heroicons-globe-alt',
-    url: 'https://samkkamauportfolio.netlify.app'
+    url: 'https://sambuilds.co.ke'
   },
   {
     name: 'LinkedIn',
@@ -223,15 +230,19 @@ const services = [
 // Handle form submission
 const handleSubmit = async () => {
   isSubmitting.value = true
-  
+
   try {
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000))
-    
-    // Show success message
+    const subject = encodeURIComponent(form.value.subject || 'Portfolio inquiry')
+    const body = encodeURIComponent(
+      `Name: ${form.value.name}\nEmail: ${form.value.email}\n\nMessage:\n${form.value.message}`
+    )
+
+    window.location.href = `mailto:sam@sambuilds.co.ke?subject=${subject}&body=${body}`
+
+    await new Promise(resolve => setTimeout(resolve, 800))
+
     showSuccess.value = true
-    
-    // Reset form
+
     form.value = {
       name: '',
       email: '',

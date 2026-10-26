@@ -66,7 +66,7 @@
                 <span>Kenya 🇰🇪</span>
               </div>
               <div class="flex items-center space-x-3">
-                <Icon name="i-heroicons-globe" class="w-5 h-5 text-accent-500" />
+                <Icon name="i-heroicons-globe-alt" class="w-5 h-5 text-accent-500" />
                 <span>Remote Available</span>
               </div>
             </div>
@@ -136,7 +136,7 @@ const experienceStats = [
 const favoriteTech = [
   { name: 'Vue.js', icon: 'i-simple-icons-vuedotjs' },
   { name: 'Flutter', icon: 'i-simple-icons-flutter' },
-  { name: 'Go', icon: 'i-simple-icons-golang' },
+  { name: 'Go', icon: 'i-simple-icons-go' },
   { name: 'Python', icon: 'i-simple-icons-python' },
   { name: 'TailwindCSS', icon: 'i-simple-icons-tailwindcss' },
   { name: 'Nuxt', icon: 'i-simple-icons-nuxtdotjs' }

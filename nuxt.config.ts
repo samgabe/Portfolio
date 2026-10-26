@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  site: {
+    url: 'https://sambuilds.co.ke'
+  },
 
   // Modules
   modules: [
@@ -44,7 +47,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       githubUrl: 'https://github.com/samgabe',
-      portfolioUrl: 'https://samkkamauportfolio.netlify.app'
+      portfolioUrl: 'https://sambuilds.co.ke'
     }
   }
 })

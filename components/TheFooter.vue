@@ -88,7 +88,7 @@ const socialLinks = [
   {
     name: 'Portfolio',
     icon: 'i-heroicons-globe-alt',
-    url: 'https://samkkamauportfolio.netlify.app'
+    url: 'https://sambuilds.co.ke'
   },
   {
     name: 'LinkedIn',

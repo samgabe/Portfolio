@@ -110,13 +110,13 @@
 const industries = [
   {
     name: 'Agriculture Tech',
-    icon: 'i-heroicons-leaf',
+    icon: 'i-heroicons-sparkles',
     description: 'Farm management systems with ML-powered crop predictions and optimization',
     technologies: ['Flutter', 'FastAPI', 'TensorFlow', 'Go']
   },
   {
     name: 'Church Management',
-    icon: 'i-heroicons-building-church',
+    icon: 'i-heroicons-building-office',
     description: 'Community administration platforms with mobile and web solutions',
     technologies: ['Kotlin', 'Vue 3', 'Go', 'TailwindCSS']
   },
@@ -150,14 +150,14 @@ const industries = [
 const successStories = [
   {
     client: 'FarmTech Solutions Ltd',
-    icon: 'i-heroicons-leaf',
+    icon: 'i-heroicons-sparkles',
     challenge: 'Manual farm management leading to low productivity and resource waste.',
     solution: 'Developed comprehensive farm management system with ML predictions and mobile app.',
     result: '40% increase in crop yield, 30% reduction in resource usage.'
   },
   {
     client: 'Unity Church Network',
-    icon: 'i-heroicons-building-church',
+    icon: 'i-heroicons-building-office',
     challenge: 'Difficulty managing 10+ church locations with disconnected systems.',
     solution: 'Created unified church management platform with mobile apps for members.',
     result: 'Centralized management, 60% improvement in member engagement.'
